@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjetoLocacao.Model;
+using System;
 
 namespace ProjetoLocacao
 {
@@ -6,7 +7,10 @@ namespace ProjetoLocacao
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TabelaPrecoModel tb = new TabelaPrecoModel()
+            {
+
+            };
         }
     }
 }
